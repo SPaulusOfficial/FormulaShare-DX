@@ -2,6 +2,7 @@
     "orgName": "FormulaShare",
     "edition": "Developer",
     "language": "en_US",
+    "namespace": "sdfs",
     "settings": {
         "lightningExperienceSettings": {
             "enableS1DesktopEnabled": true

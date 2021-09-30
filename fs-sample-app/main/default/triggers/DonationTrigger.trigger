@@ -1,5 +1,5 @@
 trigger DonationTrigger on Donation__c (after insert, after update, after delete, after undelete) {
-	FormulaShareHelper helper = new FormulaShareHelper();
+	sdfs.FormulaShareHelper helper = new sdfs.FormulaShareHelper();
     insert helper.getSharesToInsert();
     delete helper.getSharesToDelete();
 }

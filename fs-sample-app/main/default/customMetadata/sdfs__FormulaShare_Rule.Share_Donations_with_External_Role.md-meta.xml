@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <label>This Object External Role</label>
+  <protected>false</protected>
+  <values>
+    <field>sdfs__Access_Level__c</field>
+    <value xsi:type="xsd:string">Read</value>
+  </values>
+  <values>
+    <field>sdfs__Active__c</field>
+    <value xsi:type="xsd:boolean">true</value>
+  </values>
+  <values>
+    <field>sdfs__Case_Access__c</field>
+    <value xsi:type="xsd:string">None</value>
+  </values>
+  <values>
+    <field>sdfs__Contact_Access__c</field>
+    <value xsi:type="xsd:string">None</value>
+  </values>
+  <values>
+    <field>sdfs__Description__c</field>
+    <value xsi:type="xsd:string">This rule illustrates sharing to a community role specified in the External Role field</value>
+  </values>
+  <values>
+    <field>sdfs__Object_Shared__c</field>
+    <value xsi:type="xsd:string">Donation__c</value>
+  </values>
+  <values>
+    <field>sdfs__Opportunity_Access__c</field>
+    <value xsi:type="xsd:string">None</value>
+  </values>
+  <values>
+    <field>sdfs__Share_With__c</field>
+    <value xsi:type="xsd:string">Roles</value>
+  </values>
+  <values>
+    <field>sdfs__Shared_To_Field_Type__c</field>
+    <value xsi:type="xsd:string">Name</value>
+  </values>
+  <values>
+    <field>sdfs__Shared_To__c</field>
+    <value xsi:type="xsd:string">External_Sharing_Role__c</value>
+  </values>
+  <values>
+    <field>sdfs__Sharing_Reason__c</field>
+    <value xsi:type="xsd:string">sdfs__External_roles__c</value>
+  </values>
+</CustomMetadata>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <label>Grandparent Country Finance Manager +Sub</label>
+  <protected>false</protected>
+  <values>
+    <field>sdfs__Access_Level__c</field>
+    <value xsi:type="xsd:string">Read</value>
+  </values>
+  <values>
+    <field>sdfs__Active__c</field>
+    <value xsi:type="xsd:boolean">true</value>
+  </values>
+  <values>
+    <field>sdfs__Case_Access__c</field>
+    <value xsi:type="xsd:string">None</value>
+  </values>
+  <values>
+    <field>sdfs__Child_Object_Lookup_Field__c</field>
+    <value xsi:nil="true"/>
+  </values>
+  <values>
+    <field>sdfs__Child_Object_Shared_To_Field_Type__c</field>
+    <value xsi:type="xsd:string">Name</value>
+  </values>
+  <values>
+    <field>sdfs__Child_Object_Shared_To_Field__c</field>
+    <value xsi:nil="true"/>
+  </values>
+  <values>
+    <field>sdfs__Child_Object_with_Shared_To_Field__c</field>
+    <value xsi:type="xsd:string">Programme__c</value>
+  </values>
+  <values>
+    <field>sdfs__Contact_Access__c</field>
+    <value xsi:type="xsd:string">None</value>
+  </values>
+  <values>
+    <field>sdfs__Description__c</field>
+    <value xsi:type="xsd:string">This rule shows how a field from an object related through levels of parent lookups can be used to share a child object</value>
+  </values>
+  <values>
+    <field>sdfs__Object_Shared__c</field>
+    <value xsi:type="xsd:string">Donation__c</value>
+  </values>
+  <values>
+    <field>sdfs__Opportunity_Access__c</field>
+    <value xsi:type="xsd:string">None</value>
+  </values>
+  <values>
+    <field>sdfs__Related_Object_1_Lookup_from_Shared_Obj__c</field>
+    <value xsi:type="xsd:string">Programme_to_Support__c</value>
+  </values>
+  <values>
+    <field>sdfs__Related_Object_2_Lookup_from_RO1__c</field>
+    <value xsi:type="xsd:string">Country__c</value>
+  </values>
+  <values>
+    <field>sdfs__Related_Object_2_Lookup_to_RO1__c</field>
+    <value xsi:nil="true"/>
+  </values>
+  <values>
+    <field>sdfs__Related_Object_2_Shared_To_Field__c</field>
+    <value xsi:type="xsd:string">Finance_Manager_Role__c</value>
+  </values>
+  <values>
+    <field>sdfs__Related_Object_2__c</field>
+    <value xsi:type="xsd:string">Country__c</value>
+  </values>
+  <values>
+    <field>sdfs__Share_With__c</field>
+    <value xsi:type="xsd:string">Roles, Internal and Portal Subordinates</value>
+  </values>
+  <values>
+    <field>sdfs__Shared_To_Field_Type__c</field>
+    <value xsi:nil="true"/>
+  </values>
+  <values>
+    <field>sdfs__Shared_To__c</field>
+    <value xsi:nil="true"/>
+  </values>
+  <values>
+    <field>sdfs__Sharing_Reason__c</field>
+    <value xsi:type="xsd:string">sdfs__Finance_Manager_in_Country__c</value>
+  </values>
+</CustomMetadata>

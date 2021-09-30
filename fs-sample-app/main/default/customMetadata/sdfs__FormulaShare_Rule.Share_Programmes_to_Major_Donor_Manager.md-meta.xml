@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <label>Related Major Donor Managers</label>
+  <protected>false</protected>
+  <values>
+    <field>sdfs__Access_Level__c</field>
+    <value xsi:type="xsd:string">Edit</value>
+  </values>
+  <values>
+    <field>sdfs__Active__c</field>
+    <value xsi:type="xsd:boolean">true</value>
+  </values>
+  <values>
+    <field>sdfs__Case_Access__c</field>
+    <value xsi:nil="true"/>
+  </values>
+  <values>
+    <field>sdfs__Child_Object_Lookup_Field__c</field>
+    <value xsi:type="xsd:string">Programme_to_Support__c</value>
+  </values>
+  <values>
+    <field>sdfs__Child_Object_Shared_To_Field_Type__c</field>
+    <value xsi:type="xsd:string">Id</value>
+  </values>
+  <values>
+    <field>sdfs__Child_Object_Shared_To_Field__c</field>
+    <value xsi:type="xsd:string">Major_Donor_Relationship_Manager_Id__c</value>
+  </values>
+  <values>
+    <field>sdfs__Child_Object_with_Shared_To_Field__c</field>
+    <value xsi:type="xsd:string">Donation__c</value>
+  </values>
+  <values>
+    <field>sdfs__Contact_Access__c</field>
+    <value xsi:nil="true"/>
+  </values>
+  <values>
+    <field>sdfs__Description__c</field>
+    <value xsi:type="xsd:string">Shows how sharing can be based on the values of lookups in related child records</value>
+  </values>
+  <values>
+    <field>sdfs__Object_Shared__c</field>
+    <value xsi:type="xsd:string">Programme__c</value>
+  </values>
+  <values>
+    <field>sdfs__Opportunity_Access__c</field>
+    <value xsi:nil="true"/>
+  </values>
+  <values>
+    <field>sdfs__Share_With__c</field>
+    <value xsi:type="xsd:string">Users</value>
+  </values>
+  <values>
+    <field>sdfs__Shared_To_Field_Type__c</field>
+    <value xsi:nil="true"/>
+  </values>
+  <values>
+    <field>sdfs__Shared_To__c</field>
+    <value xsi:nil="true"/>
+  </values>
+  <values>
+    <field>sdfs__Sharing_Reason__c</field>
+    <value xsi:type="xsd:string">sdfs__Major_Donations_Manager_for_Programme__c</value>
+  </values>
+</CustomMetadata>

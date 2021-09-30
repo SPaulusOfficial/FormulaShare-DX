@@ -24,7 +24,8 @@ public with sharing class FSSampleAppDataGenerationService {
     @TestVisible
     private static List<String> userProfiles = new List<String>{
         'Analytics Cloud Integration User',
-        'Analytics Cloud Security User'
+        'Analytics Cloud Security User',
+        'System Administrator'
     };
 
     public static void run(Integer noDonations) {
@@ -98,7 +99,10 @@ public with sharing class FSSampleAppDataGenerationService {
                 }
             }
         }
-        insert donations;
+        try {
+            insert donations;
+        }
+        catch(Exception e) {}
 
         // Insert two programme support officers for each programme
         for(Programme__c prog : progs) {
