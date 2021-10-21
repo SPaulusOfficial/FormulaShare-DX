@@ -80,6 +80,6 @@
   </values>
   <values>
     <field>sdfs__Sharing_Reason__c</field>
-    <value xsi:type="xsd:string">sdfs__Finance_Manager_in_Country__c</value>
+    <value xsi:type="xsd:string">Finance_Manager_in_Country__c</value>
   </values>
 </CustomMetadata>

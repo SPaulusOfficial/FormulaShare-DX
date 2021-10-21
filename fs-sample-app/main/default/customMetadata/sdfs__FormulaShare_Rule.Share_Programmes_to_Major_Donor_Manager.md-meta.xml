@@ -60,6 +60,6 @@
   </values>
   <values>
     <field>sdfs__Sharing_Reason__c</field>
-    <value xsi:type="xsd:string">sdfs__Major_Donations_Manager_for_Programme__c</value>
+    <value xsi:type="xsd:string">Major_Donations_Manager_for_Programme__c</value>
   </values>
 </CustomMetadata>
